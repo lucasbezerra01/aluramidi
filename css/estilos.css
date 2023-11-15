@@ -1,16 +1,16 @@
 :root {
-  --cinza: #182cb5cb9307;
-  --vermelha: #1f56bbd9;
-  --vermelha-escura: #461d4b;
+  --cinza: #0000009307;
+  --vermelha: #121314f5;
+  --vermelha-escura: #ffffff;
   --branca: #fff;
-  --luz: rgb(25 42 243 / 80%);
+  --luz: rgb(255 255 255);
 }
 
 
 body { 
   align-items: center;
-  background-image: url(https://st4.depositphotos.com/36992478/38558/i/450/depositphotos_385583364-stock-photo-soccer-ball-on-soccer-field.jpg);
-  background-size: 2000px 1100px;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230614/pngtree-soccer-wallpaper-hd-tv-image_2933469.jpg);
+  background-size: 2000px 1080px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -22,12 +22,14 @@ body {
 h1 {
   color:  #fff;
   margin-bottom: 50px;
+  font: initial;
   font-size: 3rem;
+
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #778e2d5c 0%,#9fa12747 100%);
-  box-shadow: 6px 6px 0 6px #12547957, 20px 20px 5px #000;
+  background: linear-gradient(to bottom, #252730e0 0%,#5a5a4947 100%);
+  box-shadow: 4px 3px 0 6px #fffffff0, 20px 20px 5px #000;
   border-radius: 20px;
   display: grid;
   gap: 20px;
@@ -36,7 +38,7 @@ h1 {
 }
 
 .tecla {
-  background-color: #ffffffd1;
+  background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);

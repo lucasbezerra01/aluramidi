@@ -69,6 +69,7 @@ h1 {
 
 .tecla_title, .tecla_2{
   display: block;
+  font: bold;
    font-size: 1.6em;
     text-align: center;
 }

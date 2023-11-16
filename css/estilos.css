@@ -44,10 +44,6 @@ h1 {
   color: var(--vermelha);
   cursor: pointer;
   height: 120px;
-  font-size: 1.75em;
-  font-weight: bold;
-  line-height: 120px;
-  text-align: center;
   width: 120px;
 }
 
@@ -70,3 +66,13 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+.tecla_title, .tecla_2{
+  display: block;
+   font-size: 1.6em;
+    text-align: center;
+}
+
+.tecla_2{
+  font-size: 11
+  
